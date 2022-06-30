@@ -1,1 +1,40 @@
-../../../../.git/annex/objects/m4/m9/MD5E-s1975--626594d183af30f04df1c9fd86c9ef88/MD5E-s1975--626594d183af30f04df1c9fd86c9ef88
+Warning: Permanently added 'c120-184' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c120-194' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c120-204' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c121-201' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c122-063' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c124-142' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c131-024' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c149-191' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c151-032' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c154-152' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c158-094' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c163-191' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c172-082' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c182-142' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c189-104' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c190-092' (ED25519) to the list of known hosts.
+WARNING (02/21/22 03:04:43): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.4065344.hostlist.URYyUMiU to get hosts
+starting job on c120-184
+starting job on c120-194
+starting job on c120-204
+starting job on c121-201
+starting job on c122-063
+starting job on c124-142
+starting job on c127-132
+starting job on c131-024
+starting job on c149-191
+starting job on c151-032
+starting job on c154-152
+starting job on c158-094
+starting job on c161-131
+starting job on c163-191
+starting job on c169-201
+starting job on c172-082
+starting job on c178-141
+starting job on c182-142
+starting job on c189-104
+starting job on c190-092
+slurmstepd: error: *** JOB 4065344 ON c120-184 CANCELLED AT 2022-02-21T05:44:51 ***
+Terminated

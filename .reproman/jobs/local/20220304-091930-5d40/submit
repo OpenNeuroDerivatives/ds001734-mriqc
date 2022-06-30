@@ -1,1 +1,26 @@
-../../../../.git/annex/objects/GW/qk/MD5E-s937--34d5c8d0cb9dcc3e4e2194625e91e169/MD5E-s937--34d5c8d0cb9dcc3e4e2194625e91e169
+#!/bin/sh
+
+#SBATCH -A DBS21007
+#SBATCH --job-name=ds001734-mriqc
+#SBATCH --mail-type=END
+#SBATCH --mail-user=jbwexler@tutanota.com
+#SBATCH --output=/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds001734-mriqc/.reproman/jobs/local/20220304-091930-5d40/stdout
+#SBATCH --error=/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds001734-mriqc/.reproman/jobs/local/20220304-091930-5d40/stderr
+
+#SBATCH --nodes=2
+#SBATCH --ntasks=10
+#SBATCH --time=8:00:00
+#SBATCH --partition=small
+
+metadir=/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds001734-mriqc/.reproman/jobs/local/20220304-091930-5d40
+
+module load launcher
+module load remora
+export LAUNCHER_JOB_FILE="$metadir/launcher"
+
+for task_id in $(seq 0 9); do
+    printf "$metadir/runscript %d >$metadir/stdout.%d 2>$metadir/stderr.%d\n" \
+      "$task_id" "$task_id" "$task_id" >>"$LAUNCHER_JOB_FILE"
+done
+
+remora "$LAUNCHER_DIR"/paramrun
