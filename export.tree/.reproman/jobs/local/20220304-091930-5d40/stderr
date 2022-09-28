@@ -1,0 +1,8 @@
+Warning: Permanently added 'c208-021' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c208-028' (ED25519) to the list of known hosts.
+WARNING (03/06/22 00:38:08): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.4121166.hostlist.zg14Qr6v to get hosts
+starting job on c208-021
+starting job on c208-028
+slurmstepd: error: *** JOB 4121166 ON c208-021 CANCELLED AT 2022-03-06T03:36:41 ***
+Terminated
